@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "735706806315",
+    "firebase_url": "https://fgo-pedia-ad331.firebaseio.com",
+    "project_id": "fgo-pedia-ad331",
+    "storage_bucket": "fgo-pedia-ad331.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735706806315:android:27ea341196dcfa9023926e",
+        "android_client_info": {
+          "package_name": "com.nya.fgopedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735706806315-7b57vv0bngr21p4u81plm05ur4d6le4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nya.fgopedia",
+            "certificate_hash": "ebeeecb11f88c8b67f4e1109207e9fb181e5b4ea"
+          }
+        },
+        {
+          "client_id": "735706806315-r57k1mei0mqae0te5s1ussasvmgc456s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszKWKYPkFegNG27BzTFcLFBfF_O7S6B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735706806315-r57k1mei0mqae0te5s1ussasvmgc456s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

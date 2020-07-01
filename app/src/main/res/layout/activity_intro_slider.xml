@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/blueBg"
+    android:layout_height="match_parent"
+    tools:context=".IntroSliderActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slide"
+        android:foregroundGravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="714dp" />
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/slide"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Prev"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/slide"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Skip"
+        android:textAllCaps="false"
+        android:textColor="@color/abumuda"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/dotslayout"
+        android:layout_below="@id/slide"
+        android:layout_toEndOf="@id/prev"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="70dp"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/slide"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@id/dotslayout"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/Finish"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/slide"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@id/dotslayout"
+        android:background="@drawable/btn_finish"
+        android:text="Finish"
+        android:textAllCaps="false"
+        android:textColor="@color/blueBg"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

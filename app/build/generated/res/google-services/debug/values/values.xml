@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">735706806315-r57k1mei0mqae0te5s1ussasvmgc456s.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fgo-pedia-ad331.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">735706806315</string>
+    <string name="google_api_key" translatable="false">AIzaSyBszKWKYPkFegNG27BzTFcLFBfF_O7S6B8</string>
+    <string name="google_app_id" translatable="false">1:735706806315:android:27ea341196dcfa9023926e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBszKWKYPkFegNG27BzTFcLFBfF_O7S6B8</string>
+    <string name="google_storage_bucket" translatable="false">fgo-pedia-ad331.appspot.com</string>
+    <string name="project_id" translatable="false">fgo-pedia-ad331</string>
+</resources>

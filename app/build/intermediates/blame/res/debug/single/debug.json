@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dot.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\dot.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\banner.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_title_news.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\title_news.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_utama.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\utama.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_slide_layout.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\slide_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fatego.jpg.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\fatego.jpg"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_db_create.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\activity_db_create.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_news.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\list_news.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_finish.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\drawable\\btn_finish.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nav.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\activity_nav.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro_slider.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\layout\\activity_intro_slider.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\FGOPedia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Android Project\\FGOPedia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]
