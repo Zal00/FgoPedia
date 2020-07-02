@@ -1,6 +1,7 @@
 package com.nya.fgopedia;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.google.firebase.database.core.Context;
 import com.nya.fgopedia.adapterSlider.SliderAdapter;
 
 public class IntroSliderActivity extends AppCompatActivity {
@@ -29,7 +31,17 @@ public class IntroSliderActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro_slider);
-        initComponent();
+
+        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        boolean first = prefs.getBoolean("first", true);
+        if (first){
+            initComponent();
+        }else {
+            Intent i = new Intent(IntroSliderActivity.this, NavActivity.class);
+            startActivity(i);
+            finish();
+        }
+
     }
 
     private void initComponent() {
@@ -38,9 +50,6 @@ public class IntroSliderActivity extends AppCompatActivity {
         prev = findViewById(R.id.prev);
         finish = findViewById(R.id.Finish);
         skip = findViewById(R.id.skip);
-
-
-
 
         bottomProgressDots(0);
 
@@ -77,6 +86,14 @@ public class IntroSliderActivity extends AppCompatActivity {
                 viewPager.setCurrentItem(mCurrentPage -1);
             }
         });
+
+
+        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putBoolean("first",false);
+        editor.apply();
+
+
     }
 
     private void bottomProgressDots(int index) {

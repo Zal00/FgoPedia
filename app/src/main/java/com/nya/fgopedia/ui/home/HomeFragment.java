@@ -24,6 +24,8 @@ public class HomeFragment extends Fragment {
     private RecyclerView listNews;
     View view;
     private HomeAdapter adapter;
+    private LinearLayoutManager mManager;
+
 
     public HomeFragment() {
 
@@ -33,7 +35,12 @@ public class HomeFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_home, container, false);
         listNews = view.findViewById(R.id.recycleViewNews);
-        listNews.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        mManager = new LinearLayoutManager(getContext());
+        mManager.setReverseLayout(true);
+        mManager.setStackFromEnd(true);
+        listNews.setLayoutManager(mManager);
+
 
         FirebaseRecyclerOptions<News> options =
                 new FirebaseRecyclerOptions.Builder<News>().setQuery(FirebaseDatabase.getInstance().getReference().child("News"), News.class)
