@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:background="@color/blueBg"
     android:layout_height="match_parent"
-    tools:context=".IntroSliderActivity">
+    tools:context=".ui.intro_slider.IntroSliderActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slide"

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\10eb95b7b0ac95f6e7a234c65b70f5e9\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\47e3923c64e0213e0de7eb1c942500a9\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab8fd7a2a88200ada28c05c97833585d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -66,20 +66,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebde64c9ff0ea3b56394be3d98404abc\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8db2f4f62dfb6f83a558ccf44b2d47b4\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5f4993781196a161ee02915c8e5f0e62\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:2:11-69
@@ -94,7 +94,7 @@ MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\user\.gradle\
 	android:name
 		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:7:5-28:19
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\47e3923c64e0213e0de7eb1c942500a9\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\47e3923c64e0213e0de7eb1c942500a9\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ed2e7565d6c3314fe0aa868e313e324e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -141,34 +141,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\us
 		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.nya.fgopedia.MainActivity2
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:14:9-60
+	android:name
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:14:19-48
 activity#com.nya.fgopedia.MainActivity
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:14:9-49
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:15:9-50
 	android:name
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:14:19-47
-activity#com.nya.fgopedia.IntroSliderActivity
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:15:9-57
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:15:19-47
+activity#com.nya.fgopedia.ui.intro_slider.IntroSliderActivity
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:16:9-73
 	android:name
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:15:19-54
-activity#com.nya.fgopedia.NavActivity
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:16:9-48
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:16:19-70
+activity#com.nya.fgopedia.ui.bottomNavigasi.NavActivity
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:17:9-18:54
+	android:windowSoftInputMode
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:18:13-52
 	android:name
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:16:19-46
-activity#com.nya.fgopedia.SplashScreenActivity
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:17:9-25:20
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:17:19-64
+activity#com.nya.fgopedia.ui.splashScreen.SplashScreenActivity
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:label
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:21:13-45
 	android:name
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:20:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android Project\FGOPedia\app\src\main\AndroidManifest.xml

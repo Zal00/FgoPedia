@@ -4,32 +4,51 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.nya.fgopedia.R;
+import com.nya.fgopedia.adapter.idClassAdapter;
 
 public class DashboardFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private RecyclerView mRecylerView;
+    private idClassAdapter adapter;
+    private RecyclerView.LayoutManager mLayout;
+    private int[] mDataset;
+
+    int [] icon ={R.drawable.icon_saber, R.drawable.icon_lancer, R.drawable.icon_archer, R.drawable.icon_rider,
+    R.drawable.icon_caster, R.drawable.icon_assasin, R.drawable.icon_berseker, R.drawable.icon_ruler, R.drawable.icon_avenger,
+    R.drawable.icon_mooncancer, R.drawable.icon_alterego, R.drawable.icon_foreigner};
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+
+        initDataset();
+    }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel.class);
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        mRecylerView = (RecyclerView) root.findViewById(R.id.recyclerViewClass);
+
+        mLayout = new LinearLayoutManager(getActivity());
+        mRecylerView.setLayoutManager(new LinearLayoutManager(this.getActivity(), LinearLayoutManager.HORIZONTAL, false));
+
+        adapter = new idClassAdapter(mDataset);
+        mRecylerView.setAdapter(adapter);
         return root;
+    }
+
+    private void initDataset() {
+        mDataset = new int[icon.length];
+        for (int i = 0; i < icon.length; i++) {
+            mDataset[i] = icon[i];
+
+        }
     }
 }

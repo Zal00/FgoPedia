@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_News">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.nya.fgopedia.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:id="@+id/navigation_News"
+        android:name="com.nya.fgopedia.ui.news.NewsFragment"
+        android:label="@string/title_News"
         tools:layout="@layout/fragment_home" />
 
     <fragment

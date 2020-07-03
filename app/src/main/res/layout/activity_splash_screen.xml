@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/blueBg"
     android:gravity="center_horizontal"
-    tools:context=".SplashScreenActivity">
+    tools:context=".ui.splashScreen.SplashScreenActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/splash"

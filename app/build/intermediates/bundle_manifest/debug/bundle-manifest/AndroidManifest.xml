@@ -24,11 +24,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.nya.fgopedia.MainActivity2" />
         <activity android:name="com.nya.fgopedia.MainActivity" />
-        <activity android:name="com.nya.fgopedia.IntroSliderActivity" />
-        <activity android:name="com.nya.fgopedia.NavActivity" />
+        <activity android:name="com.nya.fgopedia.ui.intro_slider.IntroSliderActivity" />
         <activity
-            android:name="com.nya.fgopedia.SplashScreenActivity"
+            android:name="com.nya.fgopedia.ui.bottomNavigasi.NavActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.nya.fgopedia.ui.splashScreen.SplashScreenActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
