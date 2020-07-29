@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueBg"
-    android:gravity="center_horizontal"
+    android:background="@color/blue"
+    android:layout_centerInParent="true"
     tools:context=".ui.splashScreen.SplashScreenActivity">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/splash"
-        android:layout_width="149dp"
-        android:layout_height="154dp"
-        android:layout_marginTop="250dp"
-        android:src="@drawable/utama"
-        app:civ_border_color="@color/white"
-        app:civ_border_width="5dp"
-        app:civ_fill_color="#00FFFFFF" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/saasd"
+        android:contentDescription="@string/logo_utama" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="150dp"
         android:layout_height="33dp"
-        android:layout_below="@+id/splash"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
         android:gravity="center"
-        android:textSize="25dp"
-        android:text="FGO Pedia" />
+        android:text="@string/fgo_pedia"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

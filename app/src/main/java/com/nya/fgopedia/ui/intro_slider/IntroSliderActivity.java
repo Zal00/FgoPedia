@@ -1,5 +1,6 @@
 package com.nya.fgopedia.ui.intro_slider;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -33,7 +34,7 @@ public class IntroSliderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro_slider);
 
-        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        SharedPreferences prefs = getApplicationContext().getSharedPreferences("prefs", Context.MODE_PRIVATE);
         boolean first = prefs.getBoolean("first", true);
         if (first){
             initComponent();
@@ -45,7 +46,8 @@ public class IntroSliderActivity extends AppCompatActivity {
 
     }
 
-    private void initComponent() {
+   private void initComponent() {
+
         final ViewPager viewPager = findViewById(R.id.slide);
         next = findViewById(R.id.Next);
         prev = findViewById(R.id.prev);
@@ -88,14 +90,12 @@ public class IntroSliderActivity extends AppCompatActivity {
             }
         });
 
-
-        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        SharedPreferences prefs = getApplicationContext().getSharedPreferences("prefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putBoolean("first",false);
         editor.apply();
 
-
-    }
+   }
 
     private void bottomProgressDots(int index) {
         LinearLayout dotsLayout = findViewById(R.id.dotslayout);
@@ -109,7 +109,7 @@ public class IntroSliderActivity extends AppCompatActivity {
             params.setMargins(10, 10, 10, 10);
             dots[i].setLayoutParams(params);
             dots[i].setImageResource(R.drawable.dot);
-            dots[i].setColorFilter(getResources().getColor(R.color.bluedark), PorterDuff.Mode.SRC_IN);
+            dots[i].setColorFilter(getResources().getColor(R.color.black), PorterDuff.Mode.SRC_IN);
             dotsLayout.addView(dots[i]);
         }
 

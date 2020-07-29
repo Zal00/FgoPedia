@@ -2,9 +2,20 @@
     <string name="app_name">FGO Pedia</string>
     <string name="title_activity_nav">MainActivity</string>
     <string name="title_News">News</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Servant</string>
     <string name="textview">TextView</string>
     <string name="Tanggal">06.17.2020</string>
     <string name="judul">"Lostbelt No.2: The Eternal Icy Fire Century, Götterdämmerung - The Good Fellow of Everlasting Flame" Pre-Release Campaign</string>
+    <string name="banner">banner</string>
+    <string name="news">news</string>
+    <string name="servant_list">Servant List</string>
+    <string name="search_servant">Search Servant.....</string>
+    <string name="mash_kyrielight">Mash Kyrielight</string>
+    <string name="_4">4★</string>
+    <string name="img_servant">img_servant</string>
+    <string name="logo_class">logo_class</string>
+    <string name="fgo_pedia">FGO Pedia</string>
+    <string name="logo_utama">logo_utama</string>
+    <string name="craft_essence">Craft Essence</string>
+    <string name="search_ce">Search Craft Essence.....</string>
 </resources>

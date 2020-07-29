@@ -3,8 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/tools"
-    android:layout_marginRight="10dp"
-    android:layout_marginLeft="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
     android:layout_marginBottom="8dp"
     card_view:cardUseCompatPadding="true"
     app:cardElevation="4dp"
@@ -39,6 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
                 android:text="@string/judul"
                 android:textColor="@color/black"
                 android:textSize="14sp"
@@ -50,8 +51,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
             android:layout_toEndOf="@id/llayout"
-            app:srcCompat="@drawable/banner" />
+            app:srcCompat="@drawable/banner"
+            android:contentDescription="@string/banner" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

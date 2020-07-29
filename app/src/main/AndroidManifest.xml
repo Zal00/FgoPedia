@@ -8,14 +8,15 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity2"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".DetailCeActivity"></activity>
+        <activity android:name=".ui.servant.DetailActivity" />
+        <activity
+            android:name=".ui.bottomNavigasi.NavActivity"
+            android:windowSoftInputMode="adjustPan" />
         <activity android:name=".ui.intro_slider.IntroSliderActivity" />
-        <activity android:name=".ui.bottomNavigasi.NavActivity"
-            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".ui.splashScreen.SplashScreenActivity"
             android:label="@string/app_name">

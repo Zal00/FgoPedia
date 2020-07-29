@@ -13,13 +13,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 import com.nya.fgopedia.R;
-import com.nya.fgopedia.adapter.HomeAdapter;
+import com.nya.fgopedia.adapter.NewsAdapter;
 
 public class NewsFragment extends Fragment {
 
     private RecyclerView listNews;
     View view;
-    private HomeAdapter adapter;
+
+    private NewsAdapter adapter;
     private LinearLayoutManager mManager;
 
 
@@ -29,8 +30,10 @@ public class NewsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_home, container, false);
+        view = inflater.inflate(R.layout.fragment_news, container, false);
         listNews = view.findViewById(R.id.recycleViewNews);
+
+
 
         mManager = new LinearLayoutManager(getContext());
         mManager.setReverseLayout(true);
@@ -38,16 +41,19 @@ public class NewsFragment extends Fragment {
         listNews.setLayoutManager(mManager);
 
 
+
         FirebaseRecyclerOptions<News> options =
-                new FirebaseRecyclerOptions.Builder<News>().setQuery(FirebaseDatabase.getInstance().getReference().child("News"), News.class)
+                new FirebaseRecyclerOptions.Builder<News>().setQuery(FirebaseDatabase.getInstance().getReference().child("News").orderByChild("id"), News.class)
                         .build();
 
-        adapter = new HomeAdapter(options);
+        adapter = new NewsAdapter(options);
 
         listNews.setAdapter(adapter);
 
         return view;
     }
+
+
 
     public void onStart() {
         super.onStart();

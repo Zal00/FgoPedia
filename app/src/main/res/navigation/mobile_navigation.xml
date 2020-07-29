@@ -9,17 +9,18 @@
         android:id="@+id/navigation_News"
         android:name="com.nya.fgopedia.ui.news.NewsFragment"
         android:label="@string/title_News"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_news" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.nya.fgopedia.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_Servant"
+        android:name="com.nya.fgopedia.ui.servant.ServantFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_servant" />
 
-    <activity
-        android:id="@+id/navigation_notifications"
-        android:name="com.nya.fgopedia.MainActivity"
-        android:label="activity_db_create"
-        tools:layout="@layout/activity_db_create" />
+    <fragment
+        android:id="@+id/navigation_Ce"
+        android:name="com.nya.fgopedia.ui.craftessence.CeFragment"
+        android:label="@string/craft_essence"
+        tools:layout="@layout/fragment_ce" />
+
 </navigation>

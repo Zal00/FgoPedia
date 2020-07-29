@@ -22,18 +22,18 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     public int[] image_slide = {
-            R.drawable.utama,
-            R.drawable.utama,
-            R.drawable.utama
+            R.drawable.saasd,
+            R.drawable.pngfind,
+            R.drawable.servant_slider
     };
 
     public String[] title_slide = {
-            "Welcome", "Welcome", "Welcome"
+            "Selamat Datang di FGO Pedia", "News", "Servant List"
     };
 
     public String[] desc_slide = {
-            "Tambahkan teks disini agar terlihat lebih keren", "Tambahkan teks disini agar terlihat lebih keren",
-            "Tambahkan teks disini agar terlihat lebih keren"
+            "Ada beberapa Fitur yang tersedia disini, swipe untuk melihatnya", "Menampilkan Berita Update terbaru fate grand order",
+            "Menampilkan list servant, mencari servant dan detail dari servant tersebut"
     };
 
     public int getCount() { return image_slide.length;}

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueBg"
+    android:background="@color/blue"
     android:gravity="center_horizontal">
 
     <LinearLayout
@@ -14,15 +14,12 @@
         android:paddingRight="50dp"
         android:orientation="vertical">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/slide_image"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="200dp"
-            android:src="@drawable/utama"
-            app:civ_border_color="@color/white"
-            app:civ_border_width="5dp"
-            app:civ_fill_color="#00FFFFFF" />
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/saasd"/>
 
         <TextView
             android:id="@+id/judul_slide"
